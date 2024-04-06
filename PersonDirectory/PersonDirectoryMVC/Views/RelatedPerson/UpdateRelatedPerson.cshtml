@@ -1,0 +1,129 @@
+﻿@model PersonDirectory.Model.ViewModels.RelatedPersonViewModel
+
+<style>
+    #title {
+        margin-left: -30px;
+        font-size: 40px;
+        font-weight: bold;
+        color: rgba(179, 165, 5, 0.7);
+        text-align: right;
+    }
+
+    #main_div1 {
+        height: 50vh;
+        width: 90%;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(38, 37, 38, 0.7);
+    }
+
+    #div2 {
+        height: 30vh;
+        width: 80%;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form-group {
+        color: white;
+    }
+
+    #add_back_Buttons {
+        margin-top: 43px;
+    }
+
+    #addButton {
+        background-color: rgba(4, 21, 51, 0.7);
+    }
+
+        #addButton:hover {
+            background-color: rgba(28, 28, 28);
+            color: rgb(150, 139, 3);
+        }
+
+    #button {
+        font-size: 28px;
+        font-weight: bold;
+        width: 400px;
+        height: 200px;
+        margin: 20px;
+        margin-left: 3%;
+        background-color: rgba(4, 21, 51, 0.7);
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        border-radius: 20px;
+    }
+
+        #button:hover {
+            background-color: rgba(28, 28, 28);
+            color: rgb(150, 139, 3);
+        }
+
+    .error-message {
+        color: red;
+        font-weight: bold;
+        border: 2px solid red;
+        padding: 10px;
+        border-radius: 5px;
+    }
+</style>
+
+<form method="post" enctype="multipart/form-data">
+    <div class="row pb-2">
+        <h2 font-weight: bold; color: #aba9a7;">@Model.Localizer["Update Related Person"]</h2>
+        <hr style="margin-top: 10px;" />
+    </div>
+    <div class="row">
+
+        <span id="title">@Model.Localizer["Update Related Person"]</span>
+        <div id="div2">
+            <div class="form-group">
+                <label asp-for="PersonId">@Model.Localizer["Person"]:</label>
+                <input asp-for="PersonId" type="text" id="personInput" class="form-control" list="personList" placeholder="@Model.Localizer["Type to filter Persons"]" required>
+                <datalist id="personList">
+                    @foreach (var person in Model.Persons)
+                    {
+                        <option value="@person.Id">@person.FirstName @person.LastName @person.PersonalNumber</option>
+                    }
+                </datalist>
+            </div>
+            <div class="form-group">
+                <label asp-for="Type">@Model.Localizer["Relation Type"]:</label>
+                <select asp-for="Type" id="related_individuals" class="form-control" required>
+                    <option value="0">@Model.Localizer["Colleague"]</option>
+                    <option value="1">@Model.Localizer["Acquaintance"]</option>
+                    <option value="2">@Model.Localizer["Relative"]</option>
+                    <option value="3">@Model.Localizer["Other"]</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="RelatedPersonId">@Model.Localizer["Related Person"]:</label>
+                <input asp-for="RelatedPersonId" type="text" id="relatedPersonInput" class="form-control" list="relatedPersonList" placeholder="@Model.Localizer["Type to filter Related Persons"]" required>
+                <datalist id="relatedPersonList">
+                    @foreach (var person in Model.Persons)
+                    {
+                        <option value="@person.Id">@person.FirstName @person.LastName @person.PersonalNumber</option>
+                    }
+                </datalist>
+            </div>
+            @if (!string.IsNullOrEmpty(@Model.ErrorMessage))
+            {
+                <div style="margin-top: 20px" class="error-message">
+                    @Model.ErrorMessage
+                </div>
+            }
+            <div id="add_back_Buttons">
+                <div style="margin-top: 20px;"></div>
+
+                <button type="submit" class="btn btn-primary" id="addButton" style="width: 150px; font-size: 20px;">@Model.Localizer["Update"]</button>
+                <a asp-controller="Home" asp-action="Index" class="btn btn-secondary" style="width: 150px; font-size: 20px;">
+                    @Model.Localizer["Back"]
+                </a>
+            </div>
+        </div>
+    </div>
+</form>

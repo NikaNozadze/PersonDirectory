@@ -1,0 +1,123 @@
+﻿@model PersonDirectory.Model.ViewModels.CityViewModel
+
+<style>
+    #title {
+        margin-left: -30px;
+        font-size: 48px;
+        font-weight: bold;
+        color: rgba(179, 165, 5, 0.7);
+        text-align: right;
+    }
+
+    #main_div1 {
+        height: 50vh;
+        width: 90%;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(38, 37, 38, 0.7);
+    }
+
+    #div2 {
+        height: 30vh;
+        width: 80%;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form-group {
+        color: white;
+    }
+
+    #add_back_Buttons {
+        margin-top: 43px;
+    }
+
+    #addButton {
+        background-color: rgba(4, 21, 51, 0.7);
+    }
+
+        #addButton:hover {
+            background-color: rgba(28, 28, 28);
+            color: rgb(150, 139, 3);
+        }
+
+    #button {
+        font-size: 28px;
+        font-weight: bold;
+        width: 400px;
+        height: 200px;
+        margin: 20px;
+        margin-left: 3%;
+        background-color: rgba(4, 21, 51, 0.7);
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        border-radius: 20px;
+    }
+
+        #button:hover {
+            background-color: rgba(28, 28, 28);
+            color: rgb(150, 139, 3);
+        }
+
+    .error-message {
+        color: red;
+        font-weight: bold;
+        border: 2px solid red;
+        padding: 10px;
+        border-radius: 5px;
+    }
+</style>
+
+<form method="post" enctype="multipart/form-data">
+    <div class="row pb-2">
+        <h2 style="font-weight: bold; color: #aba9a7;">@Model.Localizer["Add City"]</h2>
+        <hr style="margin-top: 10px;" />
+    </div>
+    <div class="row">
+
+        <span id="title">@Model.Localizer["Add City"]</span>
+        <div id="div2">
+            <div class="form-group">
+                <label asp-for="Name">@Model.Localizer["Name"]:</label>
+                <input asp-for="Name" type="text" id="name" class="form-control" required minlength="2" maxlength="50" pattern="[A-Za-zა-ჰ]{2,50}" />
+            </div>
+            @if (!string.IsNullOrEmpty(@Model.ErrorMessage))
+            {
+                <div style="margin-top: 20px" class="error-message">
+                    @Model.ErrorMessage
+                </div>
+            }
+            <div id="add_back_Buttons">
+                <div style="margin-top: 20px;"></div>
+
+                <button type="submit" class="btn btn-primary" id="addButton" style="width: 150px; font-size: 20px;">@Model.Localizer["Add"]</button>
+                <a asp-controller="Home" asp-action="Index" class="btn btn-secondary" style="width: 150px; font-size: 20px;">
+                    @Model.Localizer["Back"]
+                </a>
+            </div>
+        </div>
+    </div>
+</form>
+
+<script>
+    function validateInput(inputElement) {
+        var inputValue = inputElement.value;
+        var isGeorgian = /^[\u10D0-\u10F6]+$/.test(inputValue);
+        var isLatin = /^[A-Za-z]+$/.test(inputValue);
+
+        if ((isGeorgian || isLatin) && inputValue.length >= 2 && inputValue.length <= 50) {
+            inputElement.setCustomValidity("");
+        } else {
+            var localizedMessage = "@Html.Raw(Model.Localizer["Please enter between 2 and 50 characters, using only Georgian or Latin letters."])";
+            inputElement.setCustomValidity(localizedMessage);
+        }
+    }
+
+    document.getElementById('name').addEventListener('input', function (event) {
+        validateInput(event.target);
+    });
+</script>

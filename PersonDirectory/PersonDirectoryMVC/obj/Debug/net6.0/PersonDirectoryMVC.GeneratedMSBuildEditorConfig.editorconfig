@@ -1,0 +1,111 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PersonDirectoryMVC
+build_property.RootNamespace = PersonDirectoryMVC
+build_property.ProjectDir = D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectoryMVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectoryMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/C\#/4_ASP.net_MVC/PersonDirectory/PersonDirectoryMVC/Views/City/CreateCity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxDcmVhdGVDaXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/4_ASP.net_MVC/PersonDirectory/PersonDirectoryMVC/Views/City/DeleteCity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxEZWxldGVDaXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/4_ASP.net_MVC/PersonDirectory/PersonDirectoryMVC/Views/City/UpdateCity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxVcGRhdGVDaXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/4_ASP.net_MVC/PersonDirectory/PersonDirectoryMVC/Views/Home/DetailedSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxlZFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/4_ASP.net_MVC/PersonDirectory/PersonDirectoryMVC/Views/Home/DetailedSearchResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxlZFNlYXJjaFJlc3VsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/4_ASP.net_MVC/PersonDirectory/PersonDirectoryMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/4_ASP.net_MVC/PersonDirectory/PersonDirectoryMVC/Views/Home/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/4_ASP.net_MVC/PersonDirectory/PersonDirectoryMVC/Views/Person/CreatePerson.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXENyZWF0ZVBlcnNvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/4_ASP.net_MVC/PersonDirectory/PersonDirectoryMVC/Views/Person/DeletePerson.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERlbGV0ZVBlcnNvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/4_ASP.net_MVC/PersonDirectory/PersonDirectoryMVC/Views/Person/GetPersonsPhoneNumbers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEdldFBlcnNvbnNQaG9uZU51bWJlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/4_ASP.net_MVC/PersonDirectory/PersonDirectoryMVC/Views/Person/GetPersonsRelatedPersons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEdldFBlcnNvbnNSZWxhdGVkUGVyc29ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/4_ASP.net_MVC/PersonDirectory/PersonDirectoryMVC/Views/Person/UpdatePerson.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXFVwZGF0ZVBlcnNvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/4_ASP.net_MVC/PersonDirectory/PersonDirectoryMVC/Views/PhoneNumber/CreatePhoneNumber.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmVOdW1iZXJcQ3JlYXRlUGhvbmVOdW1iZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/4_ASP.net_MVC/PersonDirectory/PersonDirectoryMVC/Views/PhoneNumber/DeletePhoneNumber.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmVOdW1iZXJcRGVsZXRlUGhvbmVOdW1iZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/4_ASP.net_MVC/PersonDirectory/PersonDirectoryMVC/Views/PhoneNumber/UpdatePhoneNumber.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmVOdW1iZXJcVXBkYXRlUGhvbmVOdW1iZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/4_ASP.net_MVC/PersonDirectory/PersonDirectoryMVC/Views/RelatedPerson/CreateRelatedPerson.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRlZFBlcnNvblxDcmVhdGVSZWxhdGVkUGVyc29uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/4_ASP.net_MVC/PersonDirectory/PersonDirectoryMVC/Views/RelatedPerson/DeleteRelatedPerson.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRlZFBlcnNvblxEZWxldGVSZWxhdGVkUGVyc29uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/4_ASP.net_MVC/PersonDirectory/PersonDirectoryMVC/Views/RelatedPerson/UpdateRelatedPerson.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRlZFBlcnNvblxVcGRhdGVSZWxhdGVkUGVyc29uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/4_ASP.net_MVC/PersonDirectory/PersonDirectoryMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/4_ASP.net_MVC/PersonDirectory/PersonDirectoryMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/4_ASP.net_MVC/PersonDirectory/PersonDirectoryMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/4_ASP.net_MVC/PersonDirectory/PersonDirectoryMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/4_ASP.net_MVC/PersonDirectory/PersonDirectoryMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3ckkjnzv7z

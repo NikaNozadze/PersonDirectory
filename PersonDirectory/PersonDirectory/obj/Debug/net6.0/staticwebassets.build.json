@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "H5dQk0gjIOo8V52MqKZAKZfkj0IuQYnfdTwQ3kSVpYM=",
+  "Source": "PersonDirectory.API",
+  "BasePath": "_content/PersonDirectory.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

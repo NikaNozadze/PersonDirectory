@@ -1,0 +1,30 @@
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Model\bin\Debug\net6.0\PersonDirectory.Model.deps.json
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Model\bin\Debug\net6.0\PersonDirectory.Model.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Model\bin\Debug\net6.0\PersonDirectory.Model.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Model\bin\Debug\net6.0\PersonDirectory.DTO.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Model\bin\Debug\net6.0\PersonDirectory.DTO.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Model\obj\Debug\net6.0\PersonDirectory.Model.csproj.AssemblyReference.cache
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Model\obj\Debug\net6.0\PersonDirectory.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Model\obj\Debug\net6.0\PersonDirectory.Model.AssemblyInfoInputs.cache
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Model\obj\Debug\net6.0\PersonDirectory.Model.AssemblyInfo.cs
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Model\obj\Debug\net6.0\PersonDirectory.Model.csproj.CoreCompileInputs.cache
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Model\obj\Debug\net6.0\PersonDirectory.Model.csproj.CopyComplete
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Model\obj\Debug\net6.0\PersonDirectory.Model.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Model\obj\Debug\net6.0\refint\PersonDirectory.Model.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Model\obj\Debug\net6.0\PersonDirectory.Model.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Model\obj\Debug\net6.0\ref\PersonDirectory.Model.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Model\bin\Debug\net6.0\PersonDirectory.Model.deps.json
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Model\bin\Debug\net6.0\PersonDirectory.Model.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Model\bin\Debug\net6.0\PersonDirectory.Model.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Model\bin\Debug\net6.0\PersonDirectory.DTO.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Model\bin\Debug\net6.0\PersonDirectory.DTO.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Model\obj\Debug\net6.0\PersonDirectory.Model.csproj.AssemblyReference.cache
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Model\obj\Debug\net6.0\PersonDirectory.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Model\obj\Debug\net6.0\PersonDirectory.Model.AssemblyInfoInputs.cache
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Model\obj\Debug\net6.0\PersonDirectory.Model.AssemblyInfo.cs
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Model\obj\Debug\net6.0\PersonDirectory.Model.csproj.CoreCompileInputs.cache
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Model\obj\Debug\net6.0\PersonDirectory.Model.csproj.CopyComplete
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Model\obj\Debug\net6.0\PersonDirectory.Model.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Model\obj\Debug\net6.0\refint\PersonDirectory.Model.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Model\obj\Debug\net6.0\PersonDirectory.Model.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Model\obj\Debug\net6.0\ref\PersonDirectory.Model.dll

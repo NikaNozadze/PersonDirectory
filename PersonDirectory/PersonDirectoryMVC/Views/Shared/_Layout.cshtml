@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"] - PersonDirectoryMVC</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            background-image: url('/Images/Background.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+
+        .navbar {
+            width: 80%;
+            height: 100px;
+            position: fixed;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .custom-navbar {
+            background-color: rgb(28, 28, 28);
+            border-radius: 10px;
+        }
+
+        .navbar-brand {
+            margin-left: 120px;
+            margin-bottom: 10px;
+            color: rgb(150, 139, 3);
+            font-size: 44px;
+            font-weight: bold;
+        }
+
+            .navbar-brand:hover {
+                color: rgba(163, 150, 5, 0.7);
+            }
+
+        #main_div {
+            height: 100vh;
+            width: 70%;
+            margin-top: 0px;
+            margin-bottom: -200px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgba(38, 37, 38, 0.7);
+        }
+
+        ::-webkit-scrollbar {
+            background: rgba(4, 21, 51, 0.7);
+            width: 20px;
+        }
+
+
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey;
+            border-radius: 10px;
+        }
+
+
+        ::-webkit-scrollbar-thumb {
+            background: rgb(28, 28, 28);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm box-shadow mb-3 custom-navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Person Directory</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div> 
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <div id="main_div">
+                 @RenderBody()
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        </main>
+    </div>
+</body>
+</html>

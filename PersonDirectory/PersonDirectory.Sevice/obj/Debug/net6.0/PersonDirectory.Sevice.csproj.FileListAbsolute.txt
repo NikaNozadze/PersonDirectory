@@ -1,0 +1,38 @@
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Sevice\bin\Debug\net6.0\PersonDirectory.Sevice.deps.json
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Sevice\bin\Debug\net6.0\PersonDirectory.Sevice.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Sevice\bin\Debug\net6.0\PersonDirectory.Sevice.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Sevice\bin\Debug\net6.0\PersonDirectory.DTO.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Sevice\bin\Debug\net6.0\PersonDirectory.Interfaces.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Sevice\bin\Debug\net6.0\PersonDirectory.Model.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Sevice\bin\Debug\net6.0\PersonDirectory.Interfaces.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Sevice\bin\Debug\net6.0\PersonDirectory.DTO.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Sevice\bin\Debug\net6.0\PersonDirectory.Model.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Sevice\obj\Debug\net6.0\PersonDirectory.Sevice.csproj.AssemblyReference.cache
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Sevice\obj\Debug\net6.0\PersonDirectory.Sevice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Sevice\obj\Debug\net6.0\PersonDirectory.Sevice.AssemblyInfoInputs.cache
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Sevice\obj\Debug\net6.0\PersonDirectory.Sevice.AssemblyInfo.cs
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Sevice\obj\Debug\net6.0\PersonDirectory.Sevice.csproj.CoreCompileInputs.cache
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Sevice\obj\Debug\net6.0\PersonDirectory.Sevice.csproj.CopyComplete
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Sevice\obj\Debug\net6.0\PersonDirectory.Sevice.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Sevice\obj\Debug\net6.0\refint\PersonDirectory.Sevice.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Sevice\obj\Debug\net6.0\PersonDirectory.Sevice.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Sevice\obj\Debug\net6.0\ref\PersonDirectory.Sevice.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Sevice\bin\Debug\net6.0\PersonDirectory.Sevice.deps.json
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Sevice\bin\Debug\net6.0\PersonDirectory.Sevice.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Sevice\bin\Debug\net6.0\PersonDirectory.Sevice.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Sevice\bin\Debug\net6.0\PersonDirectory.DTO.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Sevice\bin\Debug\net6.0\PersonDirectory.Interfaces.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Sevice\bin\Debug\net6.0\PersonDirectory.Model.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Sevice\bin\Debug\net6.0\PersonDirectory.Interfaces.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Sevice\bin\Debug\net6.0\PersonDirectory.DTO.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Sevice\bin\Debug\net6.0\PersonDirectory.Model.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Sevice\obj\Debug\net6.0\PersonDirectory.Sevice.csproj.AssemblyReference.cache
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Sevice\obj\Debug\net6.0\PersonDirectory.Sevice.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Sevice\obj\Debug\net6.0\PersonDirectory.Sevice.AssemblyInfoInputs.cache
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Sevice\obj\Debug\net6.0\PersonDirectory.Sevice.AssemblyInfo.cs
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Sevice\obj\Debug\net6.0\PersonDirectory.Sevice.csproj.CoreCompileInputs.cache
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Sevice\obj\Debug\net6.0\PersonDirectory.Sevice.csproj.CopyComplete
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Sevice\obj\Debug\net6.0\PersonDirectory.Sevice.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Sevice\obj\Debug\net6.0\refint\PersonDirectory.Sevice.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Sevice\obj\Debug\net6.0\PersonDirectory.Sevice.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Sevice\obj\Debug\net6.0\ref\PersonDirectory.Sevice.dll

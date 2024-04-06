@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="A person with this ID was not found." xml:space="preserve">
+    <value>A person with this ID was not found.</value>
+  </data>
+  <data name="A Transaction is already in progress." xml:space="preserve">
+    <value>A Transaction is already in progress.</value>
+  </data>
+  <data name="Acquaintance" xml:space="preserve">
+    <value>Acquaintance</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Add City" xml:space="preserve">
+    <value>Add City</value>
+  </data>
+  <data name="Add Person" xml:space="preserve">
+    <value>Add Person</value>
+  </data>
+  <data name="Add Phone Number" xml:space="preserve">
+    <value>Add Phone Number</value>
+  </data>
+  <data name="Add Related Person" xml:space="preserve">
+    <value>Add Related Person</value>
+  </data>
+  <data name="An error occurred while saving the entity changes. See the inner exception for details." xml:space="preserve">
+    <value>An error occurred while saving the entity changes. See the inner exception for details.</value>
+  </data>
+  <data name="Are you sure you want to delete City with ID" xml:space="preserve">
+    <value>Are you sure you want to delete City with ID</value>
+  </data>
+  <data name="Are you sure you want to delete person with ID" xml:space="preserve">
+    <value>Are you sure you want to delete person with ID</value>
+  </data>
+  <data name="Are you sure you want to delete Phone Number with ID" xml:space="preserve">
+    <value>Are you sure you want to delete Phone Number with ID</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="City ID is required." xml:space="preserve">
+    <value>City ID is required.</value>
+  </data>
+  <data name="City name is required." xml:space="preserve">
+    <value>City name is required.</value>
+  </data>
+  <data name="CityDeletedSuccessfully" xml:space="preserve">
+    <value>City deleted successfully</value>
+  </data>
+  <data name="CityId" xml:space="preserve">
+    <value>CityId</value>
+  </data>
+  <data name="CityName" xml:space="preserve">
+    <value>CityName</value>
+  </data>
+  <data name="CityNotFoundMessage" xml:space="preserve">
+    <value>City not found.</value>
+  </data>
+  <data name="Colleague" xml:space="preserve">
+    <value>Colleague</value>
+  </data>
+  <data name="Confirm Deletion" xml:space="preserve">
+    <value>Confirm Deletion</value>
+  </data>
+  <data name="Connection string 'DefaultConnection' not found." xml:space="preserve">
+    <value>Connection string 'DefaultConnection' not found.</value>
+  </data>
+  <data name="Create Person" xml:space="preserve">
+    <value>Create Person</value>
+  </data>
+  <data name="Date of Birth" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="Date of birth cannot be in the future." xml:space="preserve">
+    <value>Date of birth cannot be in the future.</value>
+  </data>
+  <data name="Date of birth is required." xml:space="preserve">
+    <value>Date of birth is required.</value>
+  </data>
+  <data name="DateOfBirth" xml:space="preserve">
+    <value>DateOfBirth</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Delete Image" xml:space="preserve">
+    <value>Delete Image</value>
+  </data>
+  <data name="Detailed Search" xml:space="preserve">
+    <value>Detailed Search</value>
+  </data>
+  <data name="Edit Person" xml:space="preserve">
+    <value>Edit Person</value>
+  </data>
+  <data name="Enter your search query" xml:space="preserve">
+    <value>Enter your search query</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="First name is required." xml:space="preserve">
+    <value>First name is required.</value>
+  </data>
+  <data name="First name must be between 2 and 50 characters." xml:space="preserve">
+    <value>First name must be between 2 and 50 characters.</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>FirstName</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Gender is required." xml:space="preserve">
+    <value>Gender is required.</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Home Page" xml:space="preserve">
+    <value>Home Page</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="Image file is required." xml:space="preserve">
+    <value>Image file is required.</value>
+  </data>
+  <data name="Image file not found." xml:space="preserve">
+    <value>Image file not found.</value>
+  </data>
+  <data name="ImageDeletedSuccessfully" xml:space="preserve">
+    <value>Image deleted successfully</value>
+  </data>
+  <data name="ImageNotFoundMessage" xml:space="preserve">
+    <value>Image not found</value>
+  </data>
+  <data name="Input must contain only Georgian or Latin letters." xml:space="preserve">
+    <value>Input must contain only Georgian or Latin letters.</value>
+  </data>
+  <data name="InternalServerError" xml:space="preserve">
+    <value>Internal server error</value>
+  </data>
+  <data name="Invalid search type" xml:space="preserve">
+    <value>Invalid search type</value>
+  </data>
+  <data name="LanguageChangedToEnglish" xml:space="preserve">
+    <value>Language changed to english</value>
+  </data>
+  <data name="LanguageChangedToGeorgian" xml:space="preserve">
+    <value>The language could not be changed to Georgian</value>
+  </data>
+  <data name="Last name is required." xml:space="preserve">
+    <value>Last name is required.</value>
+  </data>
+  <data name="Last name must be between 2 and 50 characters." xml:space="preserve">
+    <value>Last name must be between 2 and 50 characters.</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>LastName</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="Must be at least 18 years of age." xml:space="preserve">
+    <value>Must be at least 18 years of age.</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Name and surname should both be either Latin or Georgian." xml:space="preserve">
+    <value>Name and surname should both be either Latin or Georgian.</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="Office" xml:space="preserve">
+    <value>Office</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Person" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="Person Id" xml:space="preserve">
+    <value>Person Id</value>
+  </data>
+  <data name="Person ID cannot be zero." xml:space="preserve">
+    <value>Person ID cannot be zero.</value>
+  </data>
+  <data name="Person Id required." xml:space="preserve">
+    <value>Person Id required.</value>
+  </data>
+  <data name="Person Name" xml:space="preserve">
+    <value>Person Name</value>
+  </data>
+  <data name="Personal Number" xml:space="preserve">
+    <value>Personal Number</value>
+  </data>
+  <data name="Personal number is required." xml:space="preserve">
+    <value>Personal number is required.</value>
+  </data>
+  <data name="PersonalNumber" xml:space="preserve">
+    <value>PersonalNumber</value>
+  </data>
+  <data name="PersonDeletedSuccessfully" xml:space="preserve">
+    <value>Person deleted successfully</value>
+  </data>
+  <data name="PersonNotFoundMessage" xml:space="preserve">
+    <value>Person not found</value>
+  </data>
+  <data name="Phone Number" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="Phone number is required." xml:space="preserve">
+    <value>Phone number is required.</value>
+  </data>
+  <data name="Phone number must be between 4 and 50 characters." xml:space="preserve">
+    <value>Phone number must be between 4 and 50 characters.</value>
+  </data>
+  <data name="Phone Number Type" xml:space="preserve">
+    <value>Phone Number Type</value>
+  </data>
+  <data name="Phone Numbers" xml:space="preserve">
+    <value>Phone Numbers</value>
+  </data>
+  <data name="Phone Type" xml:space="preserve">
+    <value>Phone Type</value>
+  </data>
+  <data name="Phone type is required." xml:space="preserve">
+    <value>Phone type is required.</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>PhoneNumber</value>
+  </data>
+  <data name="PhoneNumberDeletedSuccessfully" xml:space="preserve">
+    <value>Phone number deleted successfully</value>
+  </data>
+  <data name="PhoneNumberNotFoundMessage" xml:space="preserve">
+    <value>Phone number not found</value>
+  </data>
+  <data name="Please enter 11 digits for the personal number." xml:space="preserve">
+    <value>Please enter 11 digits for the personal number.</value>
+  </data>
+  <data name="Please enter a valid date." xml:space="preserve">
+    <value>Please enter a valid date.</value>
+  </data>
+  <data name="Please enter between 2 and 50 characters, using only Georgian or Latin letters." xml:space="preserve">
+    <value>Please enter between 2 and 50 characters, using only Georgian or Latin letters.</value>
+  </data>
+  <data name="Please enter between 4 and 50 digits for the phone number." xml:space="preserve">
+    <value>Please enter between 4 and 50 digits for the phone number.</value>
+  </data>
+  <data name="Record with key System.Object[] not found" xml:space="preserve">
+    <value>Record with that key not found</value>
+  </data>
+  <data name="Related Individuals" xml:space="preserve">
+    <value>Related Individuals</value>
+  </data>
+  <data name="Related Person" xml:space="preserve">
+    <value>Related Person</value>
+  </data>
+  <data name="Related Person Id" xml:space="preserve">
+    <value>Related Person Id</value>
+  </data>
+  <data name="RelatedPersonDeletedSuccessfully" xml:space="preserve">
+    <value>Related person deleted successfully</value>
+  </data>
+  <data name="RelatedPersonNotFoundMessage" xml:space="preserve">
+    <value>Related person not found</value>
+  </data>
+  <data name="Relation Type" xml:space="preserve">
+    <value>Relation Type</value>
+  </data>
+  <data name="Relation type is required." xml:space="preserve">
+    <value>Relation type is required.</value>
+  </data>
+  <data name="Relative" xml:space="preserve">
+    <value>Relative</value>
+  </data>
+  <data name="RP Id/FN" xml:space="preserve">
+    <value>RP Id/FN</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="SearchTermRequired" xml:space="preserve">
+    <value>SearchTermRequired</value>
+  </data>
+  <data name="Surname" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="The personal number must contain 11 digits." xml:space="preserve">
+    <value>The personal number must contain 11 digits.</value>
+  </data>
+  <data name="Type to filter cities" xml:space="preserve">
+    <value>Type to filter cities</value>
+  </data>
+  <data name="Type to filter Persons" xml:space="preserve">
+    <value>Type to filter Persons</value>
+  </data>
+  <data name="Type to filter Related Persons" xml:space="preserve">
+    <value>Type to filter Related Persons</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Update City" xml:space="preserve">
+    <value>Update City</value>
+  </data>
+  <data name="Update Person" xml:space="preserve">
+    <value>Update Person</value>
+  </data>
+  <data name="Update Phone Number" xml:space="preserve">
+    <value>Update Phone Number</value>
+  </data>
+  <data name="Update Phone Numbers" xml:space="preserve">
+    <value>Update Phone Numbers</value>
+  </data>
+  <data name="Update Related Person" xml:space="preserve">
+    <value>Update Related Person</value>
+  </data>
+  <data name="Update Related Persons" xml:space="preserve">
+    <value>Update Related Persons</value>
+  </data>
+  <data name="Upload Image" xml:space="preserve">
+    <value>Upload Image</value>
+  </data>
+  <data name="You must be at least 18 years old." xml:space="preserve">
+    <value>You must be at least 18 years old.</value>
+  </data>
+</root>

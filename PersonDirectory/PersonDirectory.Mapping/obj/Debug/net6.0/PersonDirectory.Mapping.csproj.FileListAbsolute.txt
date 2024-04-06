@@ -1,0 +1,34 @@
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Mapping\bin\Debug\net6.0\PersonDirectory.Mapping.deps.json
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Mapping\bin\Debug\net6.0\PersonDirectory.Mapping.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Mapping\bin\Debug\net6.0\PersonDirectory.Mapping.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Mapping\bin\Debug\net6.0\PersonDirectory.DTO.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Mapping\bin\Debug\net6.0\PersonDirectory.Model.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Mapping\bin\Debug\net6.0\PersonDirectory.DTO.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Mapping\bin\Debug\net6.0\PersonDirectory.Model.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Mapping\obj\Debug\net6.0\PersonDirectory.Mapping.csproj.AssemblyReference.cache
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Mapping\obj\Debug\net6.0\PersonDirectory.Mapping.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Mapping\obj\Debug\net6.0\PersonDirectory.Mapping.AssemblyInfoInputs.cache
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Mapping\obj\Debug\net6.0\PersonDirectory.Mapping.AssemblyInfo.cs
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Mapping\obj\Debug\net6.0\PersonDirectory.Mapping.csproj.CoreCompileInputs.cache
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Mapping\obj\Debug\net6.0\PersonDirectory.Mapping.csproj.CopyComplete
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Mapping\obj\Debug\net6.0\PersonDirectory.Mapping.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Mapping\obj\Debug\net6.0\refint\PersonDirectory.Mapping.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Mapping\obj\Debug\net6.0\PersonDirectory.Mapping.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Mapping\obj\Debug\net6.0\ref\PersonDirectory.Mapping.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Mapping\bin\Debug\net6.0\PersonDirectory.Mapping.deps.json
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Mapping\bin\Debug\net6.0\PersonDirectory.Mapping.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Mapping\bin\Debug\net6.0\PersonDirectory.Mapping.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Mapping\bin\Debug\net6.0\PersonDirectory.DTO.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Mapping\bin\Debug\net6.0\PersonDirectory.Model.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Mapping\bin\Debug\net6.0\PersonDirectory.DTO.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Mapping\bin\Debug\net6.0\PersonDirectory.Model.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Mapping\obj\Debug\net6.0\PersonDirectory.Mapping.csproj.AssemblyReference.cache
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Mapping\obj\Debug\net6.0\PersonDirectory.Mapping.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Mapping\obj\Debug\net6.0\PersonDirectory.Mapping.AssemblyInfoInputs.cache
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Mapping\obj\Debug\net6.0\PersonDirectory.Mapping.AssemblyInfo.cs
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Mapping\obj\Debug\net6.0\PersonDirectory.Mapping.csproj.CoreCompileInputs.cache
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Mapping\obj\Debug\net6.0\PersonDirectory.Mapping.csproj.CopyComplete
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Mapping\obj\Debug\net6.0\PersonDirectory.Mapping.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Mapping\obj\Debug\net6.0\refint\PersonDirectory.Mapping.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Mapping\obj\Debug\net6.0\PersonDirectory.Mapping.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Mapping\obj\Debug\net6.0\ref\PersonDirectory.Mapping.dll

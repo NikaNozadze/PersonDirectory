@@ -1,0 +1,133 @@
+﻿@model PersonDirectory.Model.ViewModels.HomeViewModel;
+
+<style>
+    .text-primary {
+        color: white;
+    }
+
+    #button {
+        font-size: 20px;
+        font-weight: bold;
+        width: 400px;
+        height: 100px;
+        margin: 5px;
+        margin-left: 3%;
+        background-color: rgba(4, 21, 51, 0.7);
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        border-radius: 20px;
+    }
+
+        #button:hover {
+            background-color: rgba(28, 28, 28);
+            color: rgb(150, 139, 3);
+        }
+
+    #detailedSearch {
+        width: 400px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 250px;
+        background-color: rgba(4, 21, 51, 0.7);
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        border-radius: 20px;
+    }
+
+        #detailedSearch:hover {
+            background-color: rgba(28, 28, 28);
+            color: rgb(150, 139, 3);
+        }
+
+    #searchButton {
+        width: 300px;
+        height: 45px;
+        margin-left: 300px;
+        background-color: rgba(4, 21, 51, 0.7);
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        border-radius: 20px;
+    }
+
+        #searchButton:hover {
+            background-color: rgba(28, 28, 28);
+            color: rgb(150, 139, 3);
+        }
+
+    h1, h2, h3, h4, h5, p {
+        color: white;
+    }
+
+    #languagediv {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
+    }
+
+    #language {
+        background-color: rgba(38, 37, 38, 0.7);
+        color: rgb(150, 139, 3);
+        font-weight: bold;
+        height: 30px;
+        width: 100px;
+    }
+
+    .error-message {
+        width: 600px;
+        height: 70px;
+        margin-top: -30px;
+        margin-left: 15vh;
+        color: red;
+        font-weight: bold;
+        border: 2px solid red;
+        padding: 10px;
+        border-radius: 5px;
+    }
+</style>
+
+<div class="row pb-2">
+    <h2 style="font-size: 50px; font-weight: bold; color: #aba9a7;">@Model.Localizer["Home Page"]</h2>
+    <hr style="margin-top: 10px;" />
+</div>
+<form id="languageForm" method="post" enctype="multipart/form-data">
+    <div id="languagediv">
+        <select asp-for="CultureName" id="language" onchange="submitForm()">
+            @if (Model.CurrentCulture == "en-US")
+            {
+                <option value="en-US" selected>US</option>
+                <option value="ka-GE">GE</option>
+            }
+            else
+            {
+                <option value="ka-GE" selected>GE</option>
+                <option value="en-US">US</option>
+            }
+        </select>
+    </div>
+    @if (!string.IsNullOrEmpty(@Model.ErrorMessage))
+    {
+        <div class="error-message">
+            @Model.ErrorMessage
+        </div>
+    }
+</form>
+
+<button id="searchButton" onclick="location.href='/Home/Search'">@Model.Localizer["Search"]</button>
+<button id="detailedSearch" onclick="location.href='/Home/DetailedSearch'">@Model.Localizer["Detailed Search"]</button>
+
+<button id="button" style="margin-top: 50px" onclick="location.href='/Person/CreatePerson'">@Model.Localizer["Add Person"]</button>
+<button id="button" style="margin-top: 50px" onclick="location.href='/City/CreateCity'">@Model.Localizer["Add City"]</button>
+<button id="button" onclick="location.href='/PhoneNumber/CreatePhoneNumber'">@Model.Localizer["Add Phone Number"]</button>
+<button id="button" onclick="location.href='/RelatedPerson/CreateRelatedPerson'">@Model.Localizer["Add Related Person"]</button>
+
+<script>
+    function submitForm() {
+        document.getElementById("languageForm").submit();
+    }
+</script>

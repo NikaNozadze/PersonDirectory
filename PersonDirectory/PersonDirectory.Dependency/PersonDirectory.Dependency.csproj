@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PersonDirectory.Database\PersonDirectory.Database.csproj" />
+    <ProjectReference Include="..\PersonDirectory.Interfaces\PersonDirectory.Interfaces.csproj" />
+    <ProjectReference Include="..\PersonDirectory.Repository\PersonDirectory.Repository.csproj" />
+    <ProjectReference Include="..\PersonDirectory.Sevice\PersonDirectory.Sevice.csproj" />
+  </ItemGroup>
+
+</Project>

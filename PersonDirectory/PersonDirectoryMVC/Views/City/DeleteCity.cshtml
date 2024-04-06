@@ -1,0 +1,32 @@
+﻿@model PersonDirectory.Model.ViewModels.HomeViewModel;
+
+<style>
+    .error-message {
+        width: 600px;
+        height: 70px;
+        margin-left: 170px;
+        color: red;
+        font-weight: bold;
+        border: 2px solid red;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    #backButton {
+        margin-top: 10px;
+        margin-left: 170px;
+    }
+</style>
+
+<div style="margin-top: 100px"></div>
+@if (!string.IsNullOrEmpty(@Model.ErrorMessage))
+{
+    <div class="error-message">
+        @Model.ErrorMessage
+    </div>
+}
+<div id="backButton">
+    <a asp-controller="Home" asp-action="Index" class="btn btn-secondary" style="width: 150px; font-size: 20px;">
+        @Model.Localizer["Back"]
+    </a>
+</div>

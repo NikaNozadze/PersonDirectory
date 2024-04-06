@@ -1,0 +1,50 @@
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Dependency.deps.json
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Dependency.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Dependency.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Database.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.DTO.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Interfaces.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Model.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Repository.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Sevice.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Database.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Interfaces.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Repository.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Sevice.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.DTO.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Model.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\obj\Debug\net6.0\PersonDirectory.Dependency.csproj.AssemblyReference.cache
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\obj\Debug\net6.0\PersonDirectory.Dependency.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\obj\Debug\net6.0\PersonDirectory.Dependency.AssemblyInfoInputs.cache
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\obj\Debug\net6.0\PersonDirectory.Dependency.AssemblyInfo.cs
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\obj\Debug\net6.0\PersonDirectory.Dependency.csproj.CoreCompileInputs.cache
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\obj\Debug\net6.0\PersonDirectory.Dependency.csproj.CopyComplete
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\obj\Debug\net6.0\PersonDirectory.Dependency.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\obj\Debug\net6.0\refint\PersonDirectory.Dependency.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\obj\Debug\net6.0\PersonDirectory.Dependency.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Dependency\obj\Debug\net6.0\ref\PersonDirectory.Dependency.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Dependency.deps.json
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Dependency.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Dependency.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Database.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.DTO.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Interfaces.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Model.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Repository.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Sevice.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Database.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Interfaces.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Repository.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Sevice.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.DTO.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\bin\Debug\net6.0\PersonDirectory.Model.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\obj\Debug\net6.0\PersonDirectory.Dependency.csproj.AssemblyReference.cache
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\obj\Debug\net6.0\PersonDirectory.Dependency.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\obj\Debug\net6.0\PersonDirectory.Dependency.AssemblyInfoInputs.cache
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\obj\Debug\net6.0\PersonDirectory.Dependency.AssemblyInfo.cs
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\obj\Debug\net6.0\PersonDirectory.Dependency.csproj.CoreCompileInputs.cache
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\obj\Debug\net6.0\PersonDirectory.Dependency.csproj.CopyComplete
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\obj\Debug\net6.0\PersonDirectory.Dependency.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\obj\Debug\net6.0\refint\PersonDirectory.Dependency.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\obj\Debug\net6.0\PersonDirectory.Dependency.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Dependency\obj\Debug\net6.0\ref\PersonDirectory.Dependency.dll

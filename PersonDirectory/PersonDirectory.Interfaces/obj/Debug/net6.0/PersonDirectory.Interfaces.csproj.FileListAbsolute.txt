@@ -1,0 +1,34 @@
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Interfaces\bin\Debug\net6.0\PersonDirectory.Interfaces.deps.json
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Interfaces\bin\Debug\net6.0\PersonDirectory.Interfaces.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Interfaces\bin\Debug\net6.0\PersonDirectory.Interfaces.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Interfaces\bin\Debug\net6.0\PersonDirectory.DTO.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Interfaces\bin\Debug\net6.0\PersonDirectory.Model.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Interfaces\bin\Debug\net6.0\PersonDirectory.DTO.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Interfaces\bin\Debug\net6.0\PersonDirectory.Model.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Interfaces\obj\Debug\net6.0\PersonDirectory.Interfaces.csproj.AssemblyReference.cache
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Interfaces\obj\Debug\net6.0\PersonDirectory.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Interfaces\obj\Debug\net6.0\PersonDirectory.Interfaces.AssemblyInfoInputs.cache
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Interfaces\obj\Debug\net6.0\PersonDirectory.Interfaces.AssemblyInfo.cs
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Interfaces\obj\Debug\net6.0\PersonDirectory.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Interfaces\obj\Debug\net6.0\PersonDirectory.Interfaces.csproj.CopyComplete
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Interfaces\obj\Debug\net6.0\PersonDirectory.Interfaces.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Interfaces\obj\Debug\net6.0\refint\PersonDirectory.Interfaces.dll
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Interfaces\obj\Debug\net6.0\PersonDirectory.Interfaces.pdb
+C:\Users\Nika\Desktop\Новая папка (2)\PersonDirectory\PersonDirectory.Interfaces\obj\Debug\net6.0\ref\PersonDirectory.Interfaces.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Interfaces\bin\Debug\net6.0\PersonDirectory.Interfaces.deps.json
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Interfaces\bin\Debug\net6.0\PersonDirectory.Interfaces.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Interfaces\bin\Debug\net6.0\PersonDirectory.Interfaces.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Interfaces\bin\Debug\net6.0\PersonDirectory.DTO.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Interfaces\bin\Debug\net6.0\PersonDirectory.Model.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Interfaces\bin\Debug\net6.0\PersonDirectory.DTO.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Interfaces\bin\Debug\net6.0\PersonDirectory.Model.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Interfaces\obj\Debug\net6.0\PersonDirectory.Interfaces.csproj.AssemblyReference.cache
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Interfaces\obj\Debug\net6.0\PersonDirectory.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Interfaces\obj\Debug\net6.0\PersonDirectory.Interfaces.AssemblyInfoInputs.cache
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Interfaces\obj\Debug\net6.0\PersonDirectory.Interfaces.AssemblyInfo.cs
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Interfaces\obj\Debug\net6.0\PersonDirectory.Interfaces.csproj.CoreCompileInputs.cache
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Interfaces\obj\Debug\net6.0\PersonDirectory.Interfaces.csproj.CopyComplete
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Interfaces\obj\Debug\net6.0\PersonDirectory.Interfaces.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Interfaces\obj\Debug\net6.0\refint\PersonDirectory.Interfaces.dll
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Interfaces\obj\Debug\net6.0\PersonDirectory.Interfaces.pdb
+D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectory.Interfaces\obj\Debug\net6.0\ref\PersonDirectory.Interfaces.dll

@@ -1,0 +1,317 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.Sevice\\PersonDirectory.Sevice.csproj": {}
+  },
+  "projects": {
+    "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.DTO\\PersonDirectory.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.DTO\\PersonDirectory.DTO.csproj",
+        "projectName": "PersonDirectory.DTO",
+        "projectPath": "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.DTO\\PersonDirectory.DTO.csproj",
+        "packagesPath": "C:\\Users\\Nika\\.nuget\\packages\\",
+        "outputPath": "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nika\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.Interfaces\\PersonDirectory.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.Interfaces\\PersonDirectory.Interfaces.csproj",
+        "projectName": "PersonDirectory.Interfaces",
+        "projectPath": "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.Interfaces\\PersonDirectory.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Nika\\.nuget\\packages\\",
+        "outputPath": "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nika\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.DTO\\PersonDirectory.DTO.csproj": {
+                "projectPath": "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.DTO\\PersonDirectory.DTO.csproj"
+              },
+              "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.Model\\PersonDirectory.Model.csproj": {
+                "projectPath": "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.Model\\PersonDirectory.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.Model\\PersonDirectory.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.Model\\PersonDirectory.Model.csproj",
+        "projectName": "PersonDirectory.Model",
+        "projectPath": "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.Model\\PersonDirectory.Model.csproj",
+        "packagesPath": "C:\\Users\\Nika\\.nuget\\packages\\",
+        "outputPath": "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nika\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.DTO\\PersonDirectory.DTO.csproj": {
+                "projectPath": "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.DTO\\PersonDirectory.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.Extensions.Localization": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.Sevice\\PersonDirectory.Sevice.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.Sevice\\PersonDirectory.Sevice.csproj",
+        "projectName": "PersonDirectory.Sevice",
+        "projectPath": "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.Sevice\\PersonDirectory.Sevice.csproj",
+        "packagesPath": "C:\\Users\\Nika\\.nuget\\packages\\",
+        "outputPath": "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.Sevice\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nika\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.Interfaces\\PersonDirectory.Interfaces.csproj": {
+                "projectPath": "D:\\C#\\4_ASP.net_MVC\\PersonDirectory\\PersonDirectory.Interfaces\\PersonDirectory.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

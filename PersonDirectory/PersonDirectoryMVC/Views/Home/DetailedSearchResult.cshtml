@@ -1,0 +1,233 @@
+﻿@model IEnumerable<PersonDirectory.Model.ViewModels.PersonViewModel>;
+
+<style>
+    .text-primary {
+        color: white;
+    }
+
+    #button {
+        font-size: 28px;
+        font-weight: bold;
+        width: 400px;
+        height: 100px;
+        margin: 5px;
+        margin-left: 3%;
+        background-color: rgba(4, 21, 51, 0.7);
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        border-radius: 20px;
+    }
+
+        #button:hover {
+            background-color: rgba(28, 28, 28);
+            color: rgb(150, 139, 3);
+        }
+
+    #button1 {
+        width: 400px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 30vh;
+        background-color: rgba(4, 21, 51, 0.7);
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        border-radius: 20px;
+    }
+
+        #button1:hover {
+            background-color: rgba(28, 28, 28);
+            color: rgb(150, 139, 3);
+        }
+
+    #searchButton {
+        width: 100px;
+        height: 50px;
+        background-color: rgba(4, 21, 51, 0.7);
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        border-radius: 20px;
+    }
+
+        #searchButton:hover {
+            background-color: rgba(28, 28, 28);
+            color: rgb(150, 139, 3);
+        }
+
+    #searchInput {
+        width: 600px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 15vh;
+        background-color: rgba(28, 28, 28);
+        color: rgb(150, 139, 3);
+        font-weight: bold;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    h1, h2, h3, h4, h5, p {
+        color: white;
+    }
+
+    .error-message {
+        width: 600px;
+        height: 70px;
+        margin-left: 15vh;
+        color: red;
+        font-weight: bold;
+        border: 2px solid red;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    #persondiv {
+        width: auto;
+        height: auto;
+        margin: 20px;
+        margin-left: 120px;
+        margin-right: 120px;
+        color: white;
+        border-radius: 20px;
+        background-color: rgba(4, 21, 51, 0.7);
+    }
+
+    #persondivDetails {
+        width: auto;
+        height: auto;
+        margin: 10px;
+        color: white;
+        border-radius: 20px;
+        background-color: rgba(4, 21, 51, 0.7);
+    }
+
+    #personPicturediv {
+        height: auto;
+        width: auto;
+        margin: 10px;
+        background-color: rgba(4, 21, 51, 0.7);
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: 60px;
+    }
+
+    #uploadedImage {
+        width: auto;
+        height: 250px;
+    }
+
+    #main_div {
+        height: auto;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(38, 37, 38, 0.7);
+    }
+
+    #updateButton {
+        height: 40px;
+        width: 300px;
+        margin-left: 28px;
+        margin-right: 10px;
+    }
+
+    #deleteButton {
+        height: 40px;
+        width: 300px;
+    }
+
+    .modal-body {
+        color: black;
+    }
+</style>
+
+<div class="row pb-2">
+    <h2 style="font-size: 50px; font-weight: bold; color: #aba9a7;">@Model.FirstOrDefault().Localizer["Edit Person"]</h2>
+    <hr style="margin-top: 10px;" />
+</div>
+<form id="languageForm" method="post" enctype="multipart/form-data">
+    <div style="margin-top: 20px; height: 10px; width: 10px"></div>
+    @if (Model != null)
+    {
+        foreach (var person in Model)
+        {
+            <div id="persondiv" class="row">
+                <div id="persondivDetails">
+                    <div>
+                        <label>@Model.FirstOrDefault().Localizer["Id"]: @person.Id</label>
+                    </div>
+                    <div>
+                        <label>@Model.FirstOrDefault().Localizer["FirstName"]: @person.FirstName</label>
+                    </div>
+                    <div>
+                        <label>@Model.FirstOrDefault().Localizer["LastName"]: @person.LastName</label>
+                    </div>
+                    <div>
+                        <label>@Model.FirstOrDefault().Localizer["Gender"]: @person.Gender</label>
+                    </div>
+                    <div>
+                        <label>@Model.FirstOrDefault().Localizer["PersonalNumber"]: @person.PersonalNumber</label>
+                    </div>
+                    <div>
+                        <label>@Model.FirstOrDefault().Localizer["DateOfBirth"]: @person.DateOfBirth</label>
+                    </div>
+                    <div>
+                        <label>@Model.FirstOrDefault().Localizer["CityId"]: @person.City.Id</label>
+                    </div>
+                    <div>
+                        <label>@Model.FirstOrDefault().Localizer["CityName"]: @person.City.Name</label>
+                    </div>
+                    @foreach (var phoneNumber in person.PhoneNumbers)
+                    {
+                        <div>
+                            <label>@Model.FirstOrDefault().Localizer[$"{@phoneNumber.Type}"] @Model.FirstOrDefault().Localizer["Number"]: @phoneNumber.Number</label>
+                        </div>
+                    }
+                    @foreach (var relatedPerson in person.RelatedPeople)
+                    {
+                        <div>
+                            <label>@Model.FirstOrDefault().Localizer["RP Id/FN"]: @relatedPerson.RelatedPersonId @relatedPerson.RelatedPerson.FirstName @relatedPerson.RelatedPerson.LastName</label>
+                        </div>
+                    }
+                </div>
+                <div id="personPicturediv" class="col-md-8">
+                    @if (string.IsNullOrEmpty(person.ImagePath))
+                    {
+                        <img style="width:auto; height:300px" src="@Url.Content("~/images/NoPersonImage.png")" class="card-img-top" alt="...">
+                    }
+                    else
+                    {
+                        <img id="uploadedImage" src="/images/@person.ImagePath" class="card-img-top" alt="...">
+                    }
+                </div>
+
+                <a asp-controller="Person" asp-action="UpdatePerson" asp-route-id="@person.Id" id="updateButton" class="btn btn-primary" style="margin-bottom: 10px">@Model.FirstOrDefault().Localizer["Update"]</a>
+                <button id="deleteButton" type="button" class="btn btn-danger" style="margin-bottom: 10px" data-bs-toggle="modal" data-bs-target="#deleteConfirmationModal-@person.Id">@Model.FirstOrDefault().Localizer["Delete"]</button>
+
+                <div class="modal fade" id="deleteConfirmationModal-@person.Id" tabindex="-1" aria-labelledby="deleteConfirmationModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="deleteConfirmationModalLabel">@Model.FirstOrDefault().Localizer["Confirm Deletion"]</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                @Model.FirstOrDefault().Localizer["Are you sure you want to delete person with ID"]: @person.Id?
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">@Model.FirstOrDefault().Localizer["Cancel"]</button>
+                                <a asp-controller="Person" asp-action="DeletePerson" asp-route-id="@person.Id" class="btn btn-danger">@Model.FirstOrDefault().Localizer["Delete"]</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    <div style="margin-top: 20px; height: 10px; width: 10px"></div>
+</form>

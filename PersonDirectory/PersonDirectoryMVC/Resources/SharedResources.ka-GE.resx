@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="A person with this ID was not found." xml:space="preserve">
+    <value>ამ ID მქონე პირი ვერ მოიძებნა.</value>
+  </data>
+  <data name="A Transaction is already in progress." xml:space="preserve">
+    <value>ტრანზაქცია უკვე მიმდინარეობს.</value>
+  </data>
+  <data name="Acquaintance" xml:space="preserve">
+    <value>ნაცნობი</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>დამატება</value>
+  </data>
+  <data name="Add City" xml:space="preserve">
+    <value>ქალაქის დამატება</value>
+  </data>
+  <data name="Add Person" xml:space="preserve">
+    <value>პიროვნების დამატება</value>
+  </data>
+  <data name="Add Phone Number" xml:space="preserve">
+    <value>ნომრის დამატება</value>
+  </data>
+  <data name="Add Related Person" xml:space="preserve">
+    <value>კავშირის დამატება</value>
+  </data>
+  <data name="An error occurred while saving the entity changes. See the inner exception for details." xml:space="preserve">
+    <value>შეიქმნა პრობლემა ობიექტზე მუშაობის დროს.</value>
+  </data>
+  <data name="Are you sure you want to delete City with ID" xml:space="preserve">
+    <value>დარწმუნებული ხართ რომ გინდათ წაშალოთ ქალაქი ID-ით</value>
+  </data>
+  <data name="Are you sure you want to delete person with ID" xml:space="preserve">
+    <value>დარწმუნებული ხართ რომ გინდათ წაშალოთ პიროვნება ID-ით</value>
+  </data>
+  <data name="Are you sure you want to delete Phone Number with ID" xml:space="preserve">
+    <value>დარწმუნებული ხართ რომ გინდათ წაშალოთ ტელეფონის ნომერი ID-ით</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>გასვლა</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>უარყოფა</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>ქალაქი</value>
+  </data>
+  <data name="City ID is required." xml:space="preserve">
+    <value>ქალაქის ID სავალდებულოა.</value>
+  </data>
+  <data name="City name is required." xml:space="preserve">
+    <value>ქალაქის სახელი სავალდებულოა.</value>
+  </data>
+  <data name="CityDeletedSuccessfully" xml:space="preserve">
+    <value>ქალაქი წარმატებით წაიშალა</value>
+  </data>
+  <data name="CityId" xml:space="preserve">
+    <value>ქალაქის Id</value>
+  </data>
+  <data name="CityName" xml:space="preserve">
+    <value>ქალაქის სახელი</value>
+  </data>
+  <data name="CityNotFoundMessage" xml:space="preserve">
+    <value>ქალაქი ვერ მოიძებნა</value>
+  </data>
+  <data name="Colleague" xml:space="preserve">
+    <value>კოლეგა</value>
+  </data>
+  <data name="Confirm Deletion" xml:space="preserve">
+    <value>წაშლის დადასტურება</value>
+  </data>
+  <data name="Connection string 'DefaultConnection' not found." xml:space="preserve">
+    <value>კავშირის სტრიქონი „DefaultConnection“ ვერ მოიძებნა.</value>
+  </data>
+  <data name="Create Person" xml:space="preserve">
+    <value>პიროვნების შექმნა</value>
+  </data>
+  <data name="Date of Birth" xml:space="preserve">
+    <value>დაბადების თარიღი</value>
+  </data>
+  <data name="Date of birth cannot be in the future." xml:space="preserve">
+    <value>დაბადების თარიღი არ შეიძლება იყოს მომავალში</value>
+  </data>
+  <data name="Date of birth is required." xml:space="preserve">
+    <value>დაბადების თარიღი სავალდებულოა.</value>
+  </data>
+  <data name="DateOfBirth" xml:space="preserve">
+    <value>დაბადების თარიღი</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>წაშლა</value>
+  </data>
+  <data name="Delete Image" xml:space="preserve">
+    <value>ფოტოს წაშლა</value>
+  </data>
+  <data name="Detailed Search" xml:space="preserve">
+    <value>დეტალური ძიება</value>
+  </data>
+  <data name="Edit Person" xml:space="preserve">
+    <value>პიროვნების განახლება</value>
+  </data>
+  <data name="Enter your search query" xml:space="preserve">
+    <value>ჩაწერეთ თქვენი ძებნის მოთხოვნა</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>მდედრობითი</value>
+  </data>
+  <data name="First name is required." xml:space="preserve">
+    <value>პიროვნების სახელი სავალდებულოა.</value>
+  </data>
+  <data name="First name must be between 2 and 50 characters." xml:space="preserve">
+    <value>სახელი უნდა შეიცავდეს 2-დან 50 სიმბოლომდე.</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>სახელი</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>სქესი</value>
+  </data>
+  <data name="Gender is required." xml:space="preserve">
+    <value>სქესი სავალდებულოა.</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>სახლი</value>
+  </data>
+  <data name="Home Page" xml:space="preserve">
+    <value>Home Page</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="Image file is required." xml:space="preserve">
+    <value>სურათის ფაილი სავალდებულოა.</value>
+  </data>
+  <data name="Image file not found." xml:space="preserve">
+    <value>სურათის ფაილი ვერ მოიძებნა</value>
+  </data>
+  <data name="ImageDeletedSuccessfully" xml:space="preserve">
+    <value>სურათი წარმატებით წაიშალა</value>
+  </data>
+  <data name="ImageNotFoundMessage" xml:space="preserve">
+    <value>სურათი ვერ მოიძებნა</value>
+  </data>
+  <data name="Input must contain only Georgian or Latin letters." xml:space="preserve">
+    <value>ველი უნდა შეიცავდეს მხოლოდ ქართულ ან ლათინურ ასოებს.</value>
+  </data>
+  <data name="InternalServerError" xml:space="preserve">
+    <value>სერვერის შიდა შეცდომა</value>
+  </data>
+  <data name="Invalid search type" xml:space="preserve">
+    <value>შერჩეულია არასწორი ძებნის ტიპი</value>
+  </data>
+  <data name="LanguageChangedToEnglish" xml:space="preserve">
+    <value>ენა ვერ შეიცვალა ქართულზე</value>
+  </data>
+  <data name="LanguageChangedToGeorgian" xml:space="preserve">
+    <value>ენა შეცვლილია ქართულზე</value>
+  </data>
+  <data name="Last name is required." xml:space="preserve">
+    <value>გვარი სავალდებულოა.</value>
+  </data>
+  <data name="Last name must be between 2 and 50 characters." xml:space="preserve">
+    <value>გვარი უნდა შეიცავდეს 2-დან 50 სიმბოლომდე.</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>გვარი</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>მამრობითი</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>მობილური</value>
+  </data>
+  <data name="Must be at least 18 years of age." xml:space="preserve">
+    <value>პიროვნება უნდა იყოს მინიმუმ 18 წლის.</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>სახელი</value>
+  </data>
+  <data name="Name and surname should both be either Latin or Georgian." xml:space="preserve">
+    <value>სახელიც და გვარიც, ორივე უნდა იყოს ქართული ან ლათინური</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>ნომერი</value>
+  </data>
+  <data name="Office" xml:space="preserve">
+    <value>ოფისი</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>სხვა</value>
+  </data>
+  <data name="Person" xml:space="preserve">
+    <value>პიროვნება</value>
+  </data>
+  <data name="Person Id" xml:space="preserve">
+    <value>პიროვნების Id</value>
+  </data>
+  <data name="Person ID cannot be zero." xml:space="preserve">
+    <value>პიროვნების ID არ შეიძლება იყოს ნული.</value>
+  </data>
+  <data name="Person Id required." xml:space="preserve">
+    <value>პიროვნების ID სავალდებულოა.</value>
+  </data>
+  <data name="Person Name" xml:space="preserve">
+    <value>პიროვნების სახელი</value>
+  </data>
+  <data name="Personal Number" xml:space="preserve">
+    <value>პირადი ნომერი</value>
+  </data>
+  <data name="Personal number is required." xml:space="preserve">
+    <value>პირადი ნომერი სავალდებულოა.</value>
+  </data>
+  <data name="PersonalNumber" xml:space="preserve">
+    <value>პირადი ნომერი</value>
+  </data>
+  <data name="PersonDeletedSuccessfully" xml:space="preserve">
+    <value>პიროვნება წარმატებით წაიშალა</value>
+  </data>
+  <data name="PersonNotFoundMessage" xml:space="preserve">
+    <value>პიროვნება ვერ მოიძებნა</value>
+  </data>
+  <data name="Phone Number" xml:space="preserve">
+    <value>ტელეფონის ნომერი</value>
+  </data>
+  <data name="Phone number is required." xml:space="preserve">
+    <value>ტელეფონის ნომერი სავალდებულოა.</value>
+  </data>
+  <data name="Phone number must be between 4 and 50 characters." xml:space="preserve">
+    <value>ტელეფონის ნომერი უნდა შეიცავდეს 4-დან 50 სიმბოლომდე.</value>
+  </data>
+  <data name="Phone Number Type" xml:space="preserve">
+    <value>ტელეფონის ნომრის ტიპი</value>
+  </data>
+  <data name="Phone Numbers" xml:space="preserve">
+    <value>ტელეფონის ნომრები</value>
+  </data>
+  <data name="Phone Type" xml:space="preserve">
+    <value>ტელეფონის ტიპი</value>
+  </data>
+  <data name="Phone type is required." xml:space="preserve">
+    <value>ტელეფონის ტიპი სავალდებულოა.</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>ტელეფონის ნომერი</value>
+  </data>
+  <data name="PhoneNumberDeletedSuccessfully" xml:space="preserve">
+    <value>სატელეფონო ნომერი წარმატებით წაიშალა</value>
+  </data>
+  <data name="PhoneNumberNotFoundMessage" xml:space="preserve">
+    <value>სატელეფონო ნომერი ვერ მოიძებნა</value>
+  </data>
+  <data name="Please enter 11 digits for the personal number." xml:space="preserve">
+    <value>პირადი ნომერი უნდა იყოს 11 ციფრისგან შემდგარი</value>
+  </data>
+  <data name="Please enter a valid date." xml:space="preserve">
+    <value>ჩაწერეთ სწორი დრო</value>
+  </data>
+  <data name="Please enter between 2 and 50 characters, using only Georgian or Latin letters." xml:space="preserve">
+    <value>დაწერეთ ქართული ან ლათინური ასოები 2-დან 50-მდე</value>
+  </data>
+  <data name="Please enter between 4 and 50 digits for the phone number." xml:space="preserve">
+    <value>ნომერი უნდა ჩაწეროთ 4-დან 50-მდე ციფრით</value>
+  </data>
+  <data name="Record with key System.Object[] not found" xml:space="preserve">
+    <value>ჩანაწერი მაგ ID-ით ვერ მოიძებნა</value>
+  </data>
+  <data name="Related Individuals" xml:space="preserve">
+    <value>დაკავშირებული პიროვნებები</value>
+  </data>
+  <data name="Related Person" xml:space="preserve">
+    <value>დაკავშირებული პიროვნება</value>
+  </data>
+  <data name="Related Person Id" xml:space="preserve">
+    <value>დაკავშირებული პიროვნების Id</value>
+  </data>
+  <data name="RelatedPersonDeletedSuccessfully" xml:space="preserve">
+    <value>დაკავშირებული პირი წარმატებით წაიშალა</value>
+  </data>
+  <data name="RelatedPersonNotFoundMessage" xml:space="preserve">
+    <value>დაკავშირებული პირი ვერ მოიძებნა</value>
+  </data>
+  <data name="Relation Type" xml:space="preserve">
+    <value>ურთიერთობის ტიპი</value>
+  </data>
+  <data name="Relation type is required." xml:space="preserve">
+    <value>კავშირის ტიპის მითითება სავალდებულოა.</value>
+  </data>
+  <data name="Relative" xml:space="preserve">
+    <value>ნათესავი</value>
+  </data>
+  <data name="RP Id/FN" xml:space="preserve">
+    <value>დპ Id/სს</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>ძიება</value>
+  </data>
+  <data name="SearchTermRequired" xml:space="preserve">
+    <value>საძიებო ტერმინი სავალდებულოა</value>
+  </data>
+  <data name="Surname" xml:space="preserve">
+    <value>გვარი</value>
+  </data>
+  <data name="The personal number must contain 11 digits." xml:space="preserve">
+    <value>პირადი ნომერი უნდა შეიცავდეს 11 ციფრს.</value>
+  </data>
+  <data name="Type to filter cities" xml:space="preserve">
+    <value>დაიწყეთ წერა რომ გაიფილტროს ქალაქები</value>
+  </data>
+  <data name="Type to filter Persons" xml:space="preserve">
+    <value>დაიწყეთ წერა რომ გაიფილტროს პიროვნებები</value>
+  </data>
+  <data name="Type to filter Related Persons" xml:space="preserve">
+    <value>დაიწყეთ წერა რომ გაიფილტროს პიროვნებები</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>განახლება</value>
+  </data>
+  <data name="Update City" xml:space="preserve">
+    <value>ქალაქის განახლება</value>
+  </data>
+  <data name="Update Person" xml:space="preserve">
+    <value>პიროვნების განახლება</value>
+  </data>
+  <data name="Update Phone Number" xml:space="preserve">
+    <value>ნომრის განახლება</value>
+  </data>
+  <data name="Update Phone Numbers" xml:space="preserve">
+    <value>ნომრების განახლება</value>
+  </data>
+  <data name="Update Related Person" xml:space="preserve">
+    <value>დაკავშირებული პიროვნების განახლება</value>
+  </data>
+  <data name="Update Related Persons" xml:space="preserve">
+    <value>დაკავშირებული პირების განახლება</value>
+  </data>
+  <data name="Upload Image" xml:space="preserve">
+    <value>ფოტოს ატვირთვა</value>
+  </data>
+  <data name="You must be at least 18 years old." xml:space="preserve">
+    <value>თქვენ უნდა იყოთ მინიმუმ 18 წლის</value>
+  </data>
+</root>

@@ -1,0 +1,348 @@
+2024-03-20 23:32:37.997 +04:00 [INF] User profile is available. Using 'C:\Users\Nika\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-20 23:32:38.179 +04:00 [INF] Now listening on: https://localhost:7125
+2024-03-20 23:32:38.179 +04:00 [INF] Now listening on: http://localhost:5188
+2024-03-20 23:32:38.182 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-20 23:32:38.183 +04:00 [INF] Hosting environment: Development
+2024-03-20 23:32:38.183 +04:00 [INF] Content root path: D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectoryMVC\
+2024-03-20 23:32:38.565 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/ - -
+2024-03-20 23:32:38.615 +04:00 [INF] Executing endpoint 'PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC)'
+2024-03-20 23:32:38.653 +04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[PersonDirectory.Model.ViewModels.HomeViewModel] Index(PersonDirectory.Model.ViewModels.HomeViewModel) on controller PersonDirectoryMVC.Controllers.HomeController (PersonDirectoryMVC).
+2024-03-20 23:32:38.962 +04:00 [INF] Executing ViewResult, running view Index.
+2024-03-20 23:32:39.083 +04:00 [INF] Executed ViewResult - view Index executed in 125.429ms.
+2024-03-20 23:32:39.090 +04:00 [INF] Executed action PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC) in 436.2852ms
+2024-03-20 23:32:39.091 +04:00 [INF] Executed endpoint 'PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC)'
+2024-03-20 23:32:39.114 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/ - - - 200 - text/html;+charset=utf-8 551.7011ms
+2024-03-20 23:32:39.122 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-03-20 23:32:39.122 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-03-20 23:32:39.128 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 5.8308ms
+2024-03-20 23:32:39.133 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.8188ms
+2024-03-20 23:32:40.408 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/Home/Search - -
+2024-03-20 23:32:40.410 +04:00 [INF] Executing endpoint 'PersonDirectoryMVC.Controllers.HomeController.Search (PersonDirectoryMVC)'
+2024-03-20 23:32:40.417 +04:00 [INF] Route matched with {action = "Search", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PersonDirectory.Model.ViewModels.HomeViewModel]] Search(PersonDirectory.Model.ViewModels.HomeViewModel) on controller PersonDirectoryMVC.Controllers.HomeController (PersonDirectoryMVC).
+2024-03-20 23:32:40.427 +04:00 [INF] Executing ViewResult, running view Search.
+2024-03-20 23:32:40.447 +04:00 [INF] Executed ViewResult - view Search executed in 20.5883ms.
+2024-03-20 23:32:40.448 +04:00 [INF] Executed action PersonDirectoryMVC.Controllers.HomeController.Search (PersonDirectoryMVC) in 30.3513ms
+2024-03-20 23:32:40.448 +04:00 [INF] Executed endpoint 'PersonDirectoryMVC.Controllers.HomeController.Search (PersonDirectoryMVC)'
+2024-03-20 23:32:40.451 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/Home/Search - - - 200 - text/html;+charset=utf-8 43.0971ms
+2024-03-20 23:32:40.454 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-03-20 23:32:40.454 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-03-20 23:32:40.454 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 0.5465ms
+2024-03-20 23:32:40.456 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.2487ms
+2024-03-20 23:32:46.244 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7125/Home/Search multipart/form-data;+boundary=----WebKitFormBoundaryXikkAmzoBsRdi5wA 513
+2024-03-20 23:32:46.247 +04:00 [INF] Executing endpoint 'PersonDirectoryMVC.Controllers.HomeController.Search (PersonDirectoryMVC)'
+2024-03-20 23:32:46.247 +04:00 [INF] Route matched with {action = "Search", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PersonDirectory.Model.ViewModels.HomeViewModel]] Search(PersonDirectory.Model.ViewModels.HomeViewModel) on controller PersonDirectoryMVC.Controllers.HomeController (PersonDirectoryMVC).
+2024-03-20 23:32:47.472 +04:00 [INF] Executed DbCommand (67ms) [Parameters=[@SearchTerm='?' (Size = 6)], CommandType='"Text"', CommandTimeout='30']
+EXEC SearchCities @SearchTerm
+2024-03-20 23:32:47.566 +04:00 [INF] Executing ViewResult, running view Search.
+2024-03-20 23:32:47.575 +04:00 [INF] Executed ViewResult - view Search executed in 9.2958ms.
+2024-03-20 23:32:47.576 +04:00 [INF] Executed action PersonDirectoryMVC.Controllers.HomeController.Search (PersonDirectoryMVC) in 1327.963ms
+2024-03-20 23:32:47.576 +04:00 [INF] Executed endpoint 'PersonDirectoryMVC.Controllers.HomeController.Search (PersonDirectoryMVC)'
+2024-03-20 23:32:47.585 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-03-20 23:32:47.585 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-03-20 23:32:47.585 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 0.5284ms
+2024-03-20 23:32:47.587 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.4619ms
+2024-03-20 23:32:47.590 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7125/Home/Search multipart/form-data;+boundary=----WebKitFormBoundaryXikkAmzoBsRdi5wA 513 - 200 - text/html;+charset=utf-8 1346.2704ms
+2024-03-20 23:32:49.709 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/City/DeleteCity/1 - -
+2024-03-20 23:32:49.710 +04:00 [INF] Executing endpoint 'PersonDirectoryMVC.Controllers.CityController.DeleteCity (PersonDirectoryMVC)'
+2024-03-20 23:32:49.713 +04:00 [INF] Route matched with {action = "DeleteCity", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteCity(Int32) on controller PersonDirectoryMVC.Controllers.CityController (PersonDirectoryMVC).
+2024-03-20 23:32:49.904 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name]
+FROM [Cities] AS [c]
+WHERE [c].[Id] = @__p_0
+2024-03-20 23:32:49.998 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Cities]
+OUTPUT 1
+WHERE [Id] = @p0;
+2024-03-20 23:32:50.030 +04:00 [ERR] An exception occurred in the database while saving changes for context type 'PersonDirectory.Database.PersonDirectoryDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_People_Cities_CityId". The conflict occurred in database "PersonDirectoryDB", table "dbo.People", column 'CityId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:9ff09742-e42d-4a7f-84b8-bae6e652ad87
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_People_Cities_CityId". The conflict occurred in database "PersonDirectoryDB", table "dbo.People", column 'CityId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:9ff09742-e42d-4a7f-84b8-bae6e652ad87
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-03-20 23:32:50.140 +04:00 [INF] Executing ViewResult, running view DeleteCity.
+2024-03-20 23:32:50.145 +04:00 [INF] Executed ViewResult - view DeleteCity executed in 5.8798ms.
+2024-03-20 23:32:50.146 +04:00 [INF] Executed action PersonDirectoryMVC.Controllers.CityController.DeleteCity (PersonDirectoryMVC) in 432.2411ms
+2024-03-20 23:32:50.146 +04:00 [INF] Executed endpoint 'PersonDirectoryMVC.Controllers.CityController.DeleteCity (PersonDirectoryMVC)'
+2024-03-20 23:32:50.148 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/City/DeleteCity/1 - - - 200 - text/html;+charset=utf-8 438.3888ms
+2024-03-20 23:32:50.152 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-03-20 23:32:50.152 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-03-20 23:32:50.153 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 1.1001ms
+2024-03-20 23:32:50.154 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.1097ms
+2024-03-20 23:32:51.805 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/ - -
+2024-03-20 23:32:51.805 +04:00 [INF] Executing endpoint 'PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC)'
+2024-03-20 23:32:51.806 +04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[PersonDirectory.Model.ViewModels.HomeViewModel] Index(PersonDirectory.Model.ViewModels.HomeViewModel) on controller PersonDirectoryMVC.Controllers.HomeController (PersonDirectoryMVC).
+2024-03-20 23:32:51.807 +04:00 [INF] Executing ViewResult, running view Index.
+2024-03-20 23:32:51.810 +04:00 [INF] Executed ViewResult - view Index executed in 3.157ms.
+2024-03-20 23:32:51.811 +04:00 [INF] Executed action PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC) in 4.1345ms
+2024-03-20 23:32:51.811 +04:00 [INF] Executed endpoint 'PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC)'
+2024-03-20 23:32:51.812 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/ - - - 200 - text/html;+charset=utf-8 7.9494ms
+2024-03-20 23:32:51.816 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-03-20 23:32:51.816 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-03-20 23:32:51.817 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 0.7946ms
+2024-03-20 23:32:51.818 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.0599ms
+2024-03-20 23:32:52.356 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/ - -
+2024-03-20 23:32:52.357 +04:00 [INF] Executing endpoint 'PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC)'
+2024-03-20 23:32:52.358 +04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[PersonDirectory.Model.ViewModels.HomeViewModel] Index(PersonDirectory.Model.ViewModels.HomeViewModel) on controller PersonDirectoryMVC.Controllers.HomeController (PersonDirectoryMVC).
+2024-03-20 23:32:52.359 +04:00 [INF] Executing ViewResult, running view Index.
+2024-03-20 23:32:52.361 +04:00 [INF] Executed ViewResult - view Index executed in 2.6942ms.
+2024-03-20 23:32:52.362 +04:00 [INF] Executed action PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC) in 3.4995ms
+2024-03-20 23:32:52.362 +04:00 [INF] Executed endpoint 'PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC)'
+2024-03-20 23:32:52.364 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/ - - - 200 - text/html;+charset=utf-8 7.3024ms
+2024-03-20 23:32:52.367 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-03-20 23:32:52.367 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-03-20 23:32:52.368 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 1.1931ms
+2024-03-20 23:32:52.369 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.0082ms
+2024-03-20 23:46:13.985 +04:00 [INF] User profile is available. Using 'C:\Users\Nika\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-20 23:46:14.176 +04:00 [INF] Now listening on: https://localhost:7125
+2024-03-20 23:46:14.177 +04:00 [INF] Now listening on: http://localhost:5188
+2024-03-20 23:46:14.179 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-20 23:46:14.180 +04:00 [INF] Hosting environment: Development
+2024-03-20 23:46:14.181 +04:00 [INF] Content root path: D:\C#\4_ASP.net_MVC\PersonDirectory\PersonDirectoryMVC\
+2024-03-20 23:46:14.467 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/ - -
+2024-03-20 23:46:14.510 +04:00 [INF] Executing endpoint 'PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC)'
+2024-03-20 23:46:14.547 +04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[PersonDirectory.Model.ViewModels.HomeViewModel] Index(PersonDirectory.Model.ViewModels.HomeViewModel) on controller PersonDirectoryMVC.Controllers.HomeController (PersonDirectoryMVC).
+2024-03-20 23:46:14.852 +04:00 [INF] Executing ViewResult, running view Index.
+2024-03-20 23:46:14.968 +04:00 [INF] Executed ViewResult - view Index executed in 120.2682ms.
+2024-03-20 23:46:14.975 +04:00 [INF] Executed action PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC) in 426.441ms
+2024-03-20 23:46:14.976 +04:00 [INF] Executed endpoint 'PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC)'
+2024-03-20 23:46:14.998 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/ - - - 200 - text/html;+charset=utf-8 533.6510ms
+2024-03-20 23:46:15.007 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-03-20 23:46:15.007 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-03-20 23:46:15.012 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 5.3938ms
+2024-03-20 23:46:15.018 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.8305ms
+2024-03-20 23:46:20.214 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/City/CreateCity - -
+2024-03-20 23:46:20.216 +04:00 [INF] Executing endpoint 'PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC)'
+2024-03-20 23:46:20.222 +04:00 [INF] Route matched with {action = "CreateCity", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PersonDirectory.Model.ViewModels.CityViewModel]] CreateCity(PersonDirectory.Model.ViewModels.CityViewModel) on controller PersonDirectoryMVC.Controllers.CityController (PersonDirectoryMVC).
+2024-03-20 23:46:20.232 +04:00 [INF] Executing ViewResult, running view CreateCity.
+2024-03-20 23:46:20.243 +04:00 [INF] Executed ViewResult - view CreateCity executed in 11.4962ms.
+2024-03-20 23:46:20.243 +04:00 [INF] Executed action PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC) in 20.219ms
+2024-03-20 23:46:20.244 +04:00 [INF] Executed endpoint 'PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC)'
+2024-03-20 23:46:20.245 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/City/CreateCity - - - 200 - text/html;+charset=utf-8 31.4386ms
+2024-03-20 23:46:20.249 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-03-20 23:46:20.250 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-03-20 23:46:20.251 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.7503ms
+2024-03-20 23:46:20.251 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 1.4149ms
+2024-03-20 23:46:34.424 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7125/City/CreateCity multipart/form-data;+boundary=----WebKitFormBoundaryEl4qZV0uiRfOuonL 410
+2024-03-20 23:46:34.427 +04:00 [INF] Executing endpoint 'PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC)'
+2024-03-20 23:46:34.428 +04:00 [INF] Route matched with {action = "CreateCity", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PersonDirectory.Model.ViewModels.CityViewModel]] CreateCity(PersonDirectory.Model.ViewModels.CityViewModel) on controller PersonDirectoryMVC.Controllers.CityController (PersonDirectoryMVC).
+2024-03-20 23:46:35.633 +04:00 [INF] Executed DbCommand (65ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cities] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2024-03-20 23:46:35.704 +04:00 [INF] Executing RedirectResult, redirecting to /.
+2024-03-20 23:46:35.705 +04:00 [INF] Executed action PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC) in 1275.8227ms
+2024-03-20 23:46:35.705 +04:00 [INF] Executed endpoint 'PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC)'
+2024-03-20 23:46:35.708 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/ - -
+2024-03-20 23:46:35.708 +04:00 [INF] Executing endpoint 'PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC)'
+2024-03-20 23:46:35.709 +04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[PersonDirectory.Model.ViewModels.HomeViewModel] Index(PersonDirectory.Model.ViewModels.HomeViewModel) on controller PersonDirectoryMVC.Controllers.HomeController (PersonDirectoryMVC).
+2024-03-20 23:46:35.710 +04:00 [INF] Executing ViewResult, running view Index.
+2024-03-20 23:46:35.715 +04:00 [INF] Executed ViewResult - view Index executed in 4.714ms.
+2024-03-20 23:46:35.715 +04:00 [INF] Executed action PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC) in 5.6516ms
+2024-03-20 23:46:35.716 +04:00 [INF] Executed endpoint 'PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC)'
+2024-03-20 23:46:35.716 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7125/City/CreateCity multipart/form-data;+boundary=----WebKitFormBoundaryEl4qZV0uiRfOuonL 410 - 302 0 - 1291.5175ms
+2024-03-20 23:46:35.719 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/ - - - 200 - text/html;+charset=utf-8 10.9123ms
+2024-03-20 23:46:35.722 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-03-20 23:46:35.722 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-03-20 23:46:35.722 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 0.6099ms
+2024-03-20 23:46:35.724 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.4784ms
+2024-03-20 23:46:43.111 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/City/CreateCity - -
+2024-03-20 23:46:43.112 +04:00 [INF] Executing endpoint 'PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC)'
+2024-03-20 23:46:43.113 +04:00 [INF] Route matched with {action = "CreateCity", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PersonDirectory.Model.ViewModels.CityViewModel]] CreateCity(PersonDirectory.Model.ViewModels.CityViewModel) on controller PersonDirectoryMVC.Controllers.CityController (PersonDirectoryMVC).
+2024-03-20 23:46:43.114 +04:00 [INF] Executing ViewResult, running view CreateCity.
+2024-03-20 23:46:43.117 +04:00 [INF] Executed ViewResult - view CreateCity executed in 2.7735ms.
+2024-03-20 23:46:43.117 +04:00 [INF] Executed action PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC) in 3.5146ms
+2024-03-20 23:46:43.118 +04:00 [INF] Executed endpoint 'PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC)'
+2024-03-20 23:46:43.119 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/City/CreateCity - - - 200 - text/html;+charset=utf-8 7.9414ms
+2024-03-20 23:46:43.123 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-03-20 23:46:43.125 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-03-20 23:46:43.125 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.2894ms
+2024-03-20 23:46:43.125 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 0.5894ms
+2024-03-20 23:46:49.484 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7125/City/CreateCity multipart/form-data;+boundary=----WebKitFormBoundaryVaeV7OqpliQeTbLB 410
+2024-03-20 23:46:49.485 +04:00 [INF] Executing endpoint 'PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC)'
+2024-03-20 23:46:49.485 +04:00 [INF] Route matched with {action = "CreateCity", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PersonDirectory.Model.ViewModels.CityViewModel]] CreateCity(PersonDirectory.Model.ViewModels.CityViewModel) on controller PersonDirectoryMVC.Controllers.CityController (PersonDirectoryMVC).
+2024-03-20 23:46:49.519 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cities] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2024-03-20 23:46:49.520 +04:00 [INF] Executing RedirectResult, redirecting to /.
+2024-03-20 23:46:49.521 +04:00 [INF] Executed action PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC) in 34.5963ms
+2024-03-20 23:46:49.521 +04:00 [INF] Executed endpoint 'PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC)'
+2024-03-20 23:46:49.522 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7125/City/CreateCity multipart/form-data;+boundary=----WebKitFormBoundaryVaeV7OqpliQeTbLB 410 - 302 0 - 37.8089ms
+2024-03-20 23:46:49.524 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/ - -
+2024-03-20 23:46:49.524 +04:00 [INF] Executing endpoint 'PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC)'
+2024-03-20 23:46:49.525 +04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[PersonDirectory.Model.ViewModels.HomeViewModel] Index(PersonDirectory.Model.ViewModels.HomeViewModel) on controller PersonDirectoryMVC.Controllers.HomeController (PersonDirectoryMVC).
+2024-03-20 23:46:49.526 +04:00 [INF] Executing ViewResult, running view Index.
+2024-03-20 23:46:49.531 +04:00 [INF] Executed ViewResult - view Index executed in 4.8871ms.
+2024-03-20 23:46:49.532 +04:00 [INF] Executed action PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC) in 6.4092ms
+2024-03-20 23:46:49.532 +04:00 [INF] Executed endpoint 'PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC)'
+2024-03-20 23:46:49.533 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/ - - - 200 - text/html;+charset=utf-8 9.8828ms
+2024-03-20 23:46:49.537 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-03-20 23:46:49.537 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-03-20 23:46:49.538 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 1.1363ms
+2024-03-20 23:46:49.539 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.1400ms
+2024-03-20 23:46:50.539 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/City/CreateCity - -
+2024-03-20 23:46:50.539 +04:00 [INF] Executing endpoint 'PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC)'
+2024-03-20 23:46:50.540 +04:00 [INF] Route matched with {action = "CreateCity", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PersonDirectory.Model.ViewModels.CityViewModel]] CreateCity(PersonDirectory.Model.ViewModels.CityViewModel) on controller PersonDirectoryMVC.Controllers.CityController (PersonDirectoryMVC).
+2024-03-20 23:46:50.541 +04:00 [INF] Executing ViewResult, running view CreateCity.
+2024-03-20 23:46:50.544 +04:00 [INF] Executed ViewResult - view CreateCity executed in 3.1834ms.
+2024-03-20 23:46:50.545 +04:00 [INF] Executed action PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC) in 3.9848ms
+2024-03-20 23:46:50.545 +04:00 [INF] Executed endpoint 'PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC)'
+2024-03-20 23:46:50.547 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/City/CreateCity - - - 200 - text/html;+charset=utf-8 8.0383ms
+2024-03-20 23:46:50.550 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-03-20 23:46:50.550 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-03-20 23:46:50.551 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 0.8698ms
+2024-03-20 23:46:50.552 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.1842ms
+2024-03-20 23:46:59.817 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7125/City/CreateCity multipart/form-data;+boundary=----WebKitFormBoundaryF22XKsAbi6AExZEi 409
+2024-03-20 23:46:59.818 +04:00 [INF] Executing endpoint 'PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC)'
+2024-03-20 23:46:59.819 +04:00 [INF] Route matched with {action = "CreateCity", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PersonDirectory.Model.ViewModels.CityViewModel]] CreateCity(PersonDirectory.Model.ViewModels.CityViewModel) on controller PersonDirectoryMVC.Controllers.CityController (PersonDirectoryMVC).
+2024-03-20 23:46:59.827 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cities] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2024-03-20 23:46:59.829 +04:00 [INF] Executing RedirectResult, redirecting to /.
+2024-03-20 23:46:59.829 +04:00 [INF] Executed action PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC) in 9.6001ms
+2024-03-20 23:46:59.830 +04:00 [INF] Executed endpoint 'PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC)'
+2024-03-20 23:46:59.830 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7125/City/CreateCity multipart/form-data;+boundary=----WebKitFormBoundaryF22XKsAbi6AExZEi 409 - 302 0 - 12.9358ms
+2024-03-20 23:46:59.832 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/ - -
+2024-03-20 23:46:59.833 +04:00 [INF] Executing endpoint 'PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC)'
+2024-03-20 23:46:59.833 +04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[PersonDirectory.Model.ViewModels.HomeViewModel] Index(PersonDirectory.Model.ViewModels.HomeViewModel) on controller PersonDirectoryMVC.Controllers.HomeController (PersonDirectoryMVC).
+2024-03-20 23:46:59.834 +04:00 [INF] Executing ViewResult, running view Index.
+2024-03-20 23:46:59.836 +04:00 [INF] Executed ViewResult - view Index executed in 2.4929ms.
+2024-03-20 23:46:59.837 +04:00 [INF] Executed action PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC) in 3.2041ms
+2024-03-20 23:46:59.837 +04:00 [INF] Executed endpoint 'PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC)'
+2024-03-20 23:46:59.839 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/ - - - 200 - text/html;+charset=utf-8 6.8879ms
+2024-03-20 23:46:59.843 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-03-20 23:46:59.844 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-03-20 23:46:59.845 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 1.3121ms
+2024-03-20 23:46:59.846 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.4083ms
+2024-03-20 23:47:02.412 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/City/CreateCity - -
+2024-03-20 23:47:02.413 +04:00 [INF] Executing endpoint 'PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC)'
+2024-03-20 23:47:02.414 +04:00 [INF] Route matched with {action = "CreateCity", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PersonDirectory.Model.ViewModels.CityViewModel]] CreateCity(PersonDirectory.Model.ViewModels.CityViewModel) on controller PersonDirectoryMVC.Controllers.CityController (PersonDirectoryMVC).
+2024-03-20 23:47:02.415 +04:00 [INF] Executing ViewResult, running view CreateCity.
+2024-03-20 23:47:02.417 +04:00 [INF] Executed ViewResult - view CreateCity executed in 2.6866ms.
+2024-03-20 23:47:02.418 +04:00 [INF] Executed action PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC) in 3.4596ms
+2024-03-20 23:47:02.418 +04:00 [INF] Executed endpoint 'PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC)'
+2024-03-20 23:47:02.420 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/City/CreateCity - - - 200 - text/html;+charset=utf-8 7.4577ms
+2024-03-20 23:47:02.424 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-03-20 23:47:02.427 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-03-20 23:47:02.428 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 0.7767ms
+2024-03-20 23:47:02.428 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.0773ms
+2024-03-20 23:47:06.768 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7125/City/CreateCity multipart/form-data;+boundary=----WebKitFormBoundarynBoAr7HAPH9QjdHc 410
+2024-03-20 23:47:06.769 +04:00 [INF] Executing endpoint 'PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC)'
+2024-03-20 23:47:06.769 +04:00 [INF] Route matched with {action = "CreateCity", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PersonDirectory.Model.ViewModels.CityViewModel]] CreateCity(PersonDirectory.Model.ViewModels.CityViewModel) on controller PersonDirectoryMVC.Controllers.CityController (PersonDirectoryMVC).
+2024-03-20 23:47:06.772 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cities] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2024-03-20 23:47:06.773 +04:00 [INF] Executing RedirectResult, redirecting to /.
+2024-03-20 23:47:06.774 +04:00 [INF] Executed action PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC) in 3.5946ms
+2024-03-20 23:47:06.774 +04:00 [INF] Executed endpoint 'PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC)'
+2024-03-20 23:47:06.775 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7125/City/CreateCity multipart/form-data;+boundary=----WebKitFormBoundarynBoAr7HAPH9QjdHc 410 - 302 0 - 6.7084ms
+2024-03-20 23:47:06.777 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/ - -
+2024-03-20 23:47:06.777 +04:00 [INF] Executing endpoint 'PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC)'
+2024-03-20 23:47:06.778 +04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[PersonDirectory.Model.ViewModels.HomeViewModel] Index(PersonDirectory.Model.ViewModels.HomeViewModel) on controller PersonDirectoryMVC.Controllers.HomeController (PersonDirectoryMVC).
+2024-03-20 23:47:06.779 +04:00 [INF] Executing ViewResult, running view Index.
+2024-03-20 23:47:06.781 +04:00 [INF] Executed ViewResult - view Index executed in 2.8266ms.
+2024-03-20 23:47:06.782 +04:00 [INF] Executed action PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC) in 3.5846ms
+2024-03-20 23:47:06.782 +04:00 [INF] Executed endpoint 'PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC)'
+2024-03-20 23:47:06.784 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/ - - - 200 - text/html;+charset=utf-8 7.4007ms
+2024-03-20 23:47:06.789 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-03-20 23:47:06.791 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-03-20 23:47:06.791 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.3131ms
+2024-03-20 23:47:06.791 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 0.5572ms
+2024-03-20 23:47:09.388 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/City/CreateCity - -
+2024-03-20 23:47:09.389 +04:00 [INF] Executing endpoint 'PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC)'
+2024-03-20 23:47:09.389 +04:00 [INF] Route matched with {action = "CreateCity", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PersonDirectory.Model.ViewModels.CityViewModel]] CreateCity(PersonDirectory.Model.ViewModels.CityViewModel) on controller PersonDirectoryMVC.Controllers.CityController (PersonDirectoryMVC).
+2024-03-20 23:47:09.391 +04:00 [INF] Executing ViewResult, running view CreateCity.
+2024-03-20 23:47:09.393 +04:00 [INF] Executed ViewResult - view CreateCity executed in 2.637ms.
+2024-03-20 23:47:09.394 +04:00 [INF] Executed action PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC) in 3.3339ms
+2024-03-20 23:47:09.394 +04:00 [INF] Executed endpoint 'PersonDirectoryMVC.Controllers.CityController.CreateCity (PersonDirectoryMVC)'
+2024-03-20 23:47:09.395 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/City/CreateCity - - - 200 - text/html;+charset=utf-8 7.1473ms
+2024-03-20 23:47:09.848 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-03-20 23:47:09.848 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-03-20 23:47:09.849 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 0.6839ms
+2024-03-20 23:47:09.850 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.2871ms
+2024-03-20 23:48:07.178 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/ - -
+2024-03-20 23:48:07.181 +04:00 [INF] Executing endpoint 'PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC)'
+2024-03-20 23:48:07.181 +04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[PersonDirectory.Model.ViewModels.HomeViewModel] Index(PersonDirectory.Model.ViewModels.HomeViewModel) on controller PersonDirectoryMVC.Controllers.HomeController (PersonDirectoryMVC).
+2024-03-20 23:48:07.183 +04:00 [INF] Executing ViewResult, running view Index.
+2024-03-20 23:48:07.186 +04:00 [INF] Executed ViewResult - view Index executed in 3.4413ms.
+2024-03-20 23:48:07.186 +04:00 [INF] Executed action PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC) in 4.2254ms
+2024-03-20 23:48:07.187 +04:00 [INF] Executed endpoint 'PersonDirectoryMVC.Controllers.HomeController.Index (PersonDirectoryMVC)'
+2024-03-20 23:48:07.190 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/ - - - 200 - text/html;+charset=utf-8 11.8624ms
+2024-03-20 23:48:07.194 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-03-20 23:48:07.194 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-03-20 23:48:07.195 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 0.5537ms
+2024-03-20 23:48:07.198 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.2680ms
+2024-03-20 23:48:12.544 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/Person/CreatePerson - -
+2024-03-20 23:48:12.545 +04:00 [INF] Executing endpoint 'PersonDirectoryMVC.Controllers.PersonController.CreatePerson (PersonDirectoryMVC)'
+2024-03-20 23:48:12.548 +04:00 [INF] Route matched with {action = "CreatePerson", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PersonDirectory.Model.ViewModels.PersonViewModel]] CreatePerson(PersonDirectory.Model.ViewModels.PersonViewModel, Microsoft.AspNetCore.Http.IFormFile) on controller PersonDirectoryMVC.Controllers.PersonController (PersonDirectoryMVC).
+2024-03-20 23:48:12.747 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Cities] AS [c]
+2024-03-20 23:48:12.760 +04:00 [INF] Executing ViewResult, running view CreatePerson.
+2024-03-20 23:48:12.784 +04:00 [INF] Executed ViewResult - view CreatePerson executed in 24.9947ms.
+2024-03-20 23:48:12.785 +04:00 [INF] Executed action PersonDirectoryMVC.Controllers.PersonController.CreatePerson (PersonDirectoryMVC) in 236.4207ms
+2024-03-20 23:48:12.785 +04:00 [INF] Executed endpoint 'PersonDirectoryMVC.Controllers.PersonController.CreatePerson (PersonDirectoryMVC)'
+2024-03-20 23:48:12.787 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/Person/CreatePerson - - - 200 - text/html;+charset=utf-8 243.0454ms
+2024-03-20 23:48:12.791 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2024-03-20 23:48:12.791 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2024-03-20 23:48:12.791 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 0.5640ms
+2024-03-20 23:48:12.793 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.5012ms
